@@ -4,7 +4,7 @@ spring:
   application:
     name: patient
   datasource:
-    url: jbdc:mysql://localhost:3308/patientdb
+    url: jdbc:mysql://localhost:3308/patientdb
     username: root
     password: root
   jpa:
