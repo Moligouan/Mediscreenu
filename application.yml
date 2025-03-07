@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Moligouan/Mediscreen
+          uri: https://github.com/Moligouan/Mediscreenu
           default-label: master
           timeout: 5
           clone-on-start: true
