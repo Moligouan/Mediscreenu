@@ -3,6 +3,16 @@ server:
 spring:
   application:
     name: patient
+  datasource:
+    url: moligouan:mysql://localhost:3308/patientdb
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:db/schema.sql
 eureka:
   instance:
     hostname: localhost
