@@ -4,7 +4,7 @@ spring:
   application:
     name: note
     datasource:
-      url: jdbc:mysql://mongodb:27017/mongodb
+      url: jdbc:mysql://mongodb:27018/mongodb
       username: root
       password: root
   jpa:
